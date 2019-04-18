@@ -30,6 +30,13 @@ class ViewController: UIViewController {
         }
         
         wheel.select(item: "125")
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            wheel.select(item: "320")
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                wheel.select(item: "500")
+            }
+        }
     }
 
 }

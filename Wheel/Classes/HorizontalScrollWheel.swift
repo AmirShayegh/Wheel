@@ -38,7 +38,7 @@ public class HorizontalScrollWheel: UIView {
     var items: [String] = [String]()
     var current: String = ""
     var currentCenterCellIndexPath: IndexPath?
-    
+    var lastCallbackValue: String = ""
     var selected: [IndexPath] = [IndexPath]()
     
     var selectionChanged: ((_ selection: String)-> Void)?
@@ -54,6 +54,8 @@ public class HorizontalScrollWheel: UIView {
     }
     
     func callback(with selection: String) {
+        if selection == lastCallbackValue {return}
+        lastCallbackValue = selection
         if let callBack = selectionChanged {
             callBack(selection)
         }
