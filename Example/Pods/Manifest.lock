@@ -1,5 +1,5 @@
 PODS:
-  - Wheel (0.1.0)
+  - Wheel (1.0.0)
 
 DEPENDENCIES:
   - Wheel (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Wheel: 52e92b437c56b0a47178fda2c048a6cd45c95e61
+  Wheel: 5684fa86b56a8c63eb5e6609ad32dea72e9471e5
 
 PODFILE CHECKSUM: 907ab802fc6c573197115a23826e039f4a909ec8
 

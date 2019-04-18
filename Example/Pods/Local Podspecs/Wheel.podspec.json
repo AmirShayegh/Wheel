@@ -1,8 +1,8 @@
 {
   "name": "Wheel",
-  "version": "0.1.0",
-  "summary": "A short description of Wheel.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.0",
+  "summary": "Horizontal wheel picker library for iOS applications.",
+  "description": "A horizontal wheel picker library for iOS applications. Pass in an array of strings, the initial selected value and receive selections through a callback",
   "homepage": "https://github.com/AmirShayegh/Wheel",
   "license": {
     "type": "MIT",
@@ -13,10 +13,16 @@
   },
   "source": {
     "git": "https://github.com/AmirShayegh/Wheel.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "Wheel/Classes/**/*"
+  "source_files": "Wheel/Classes/**/*.{swift}",
+  "resource_bundles": {
+    "Wheel": [
+      "Wheel/Classes/**/*.{storyboard,xib}"
+    ]
+  },
+  "frameworks": "UIKit"
 }

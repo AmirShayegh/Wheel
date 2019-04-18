@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Wheel'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Wheel.'
+  s.version          = '1.0.0'
+  s.summary          = 'Horizontal wheel picker library for iOS applications.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A horizontal wheel picker library for iOS applications. Pass in an array of strings, the initial selected value and receive selections through a callback
                        DESC
 
   s.homepage         = 'https://github.com/AmirShayegh/Wheel'
@@ -28,15 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/AmirShayegh/Wheel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'Wheel/Classes/**/*'
+  s.ios.deployment_target = '11.0'
+  s.source_files = 'Wheel/Classes/**/*.{swift}'
   
-  # s.resource_bundles = {
-  #   'Wheel' => ['Wheel/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resource_bundles = {
+      'Wheel' => ['Wheel/Classes/**/*.{storyboard,xib}']
+  }
+  s.frameworks = 'UIKit'
 end
