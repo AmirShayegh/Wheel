@@ -1,0 +1,16 @@
+PODS:
+  - Wheel (0.1.0)
+
+DEPENDENCIES:
+  - Wheel (from `../`)
+
+EXTERNAL SOURCES:
+  Wheel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Wheel: 52e92b437c56b0a47178fda2c048a6cd45c95e61
+
+PODFILE CHECKSUM: 907ab802fc6c573197115a23826e039f4a909ec8
+
+COCOAPODS: 1.7.0.beta.3

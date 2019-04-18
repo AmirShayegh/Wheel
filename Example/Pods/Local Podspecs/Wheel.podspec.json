@@ -1,0 +1,22 @@
+{
+  "name": "Wheel",
+  "version": "0.1.0",
+  "summary": "A short description of Wheel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AmirShayegh/Wheel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AmirShayegh": "shayegh@me.com"
+  },
+  "source": {
+    "git": "https://github.com/AmirShayegh/Wheel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Wheel/Classes/**/*"
+}
