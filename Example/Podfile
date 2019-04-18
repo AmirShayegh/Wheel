@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Wheel_Example' do
+  pod 'Wheel', :path => '../'
+
+  target 'Wheel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
