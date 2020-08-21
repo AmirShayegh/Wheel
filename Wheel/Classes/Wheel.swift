@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 public class Wheel {
+    private static var tag = 418194141
     public static var font = UIFont.boldSystemFont(ofSize: 14)
     public static var selectedElementColor: UIColor = UIColor.black
     public static var elementColor: UIColor = UIColor.lightGray
@@ -28,7 +29,11 @@ public class Wheel {
     
     public static func show(items: [String],in view: UIView, withInitialValue initialValue: String, onChange: @escaping(_ value: String)->Void) -> HorizontalScrollWheel {
         let wheelView: HorizontalScrollWheel = HorizontalScrollWheel.nib(bundle: bundle)
+        for subviews in view.subviews where subviews.tag == tag {
+            subviews.removeFromSuperview()
+        }
         wheelView.frame = view.frame
+        wheelView.tag = tag
         view.addSubview(wheelView)
         wheelView.center = view.center
         wheelView.translatesAutoresizingMaskIntoConstraints = false

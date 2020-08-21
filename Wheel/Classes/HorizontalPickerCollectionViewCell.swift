@@ -22,8 +22,8 @@ class HorizontalPickerCollectionViewCell: UICollectionViewCell {
     func setup(with value: String, isCurrent: Bool ,selected: @escaping()-> Void) {
         self.whenSelected = selected
         self.label.text = value
-        
         if isCurrent {select()} else {deselect()}
+        style()
     }
     
     func select() {
@@ -40,5 +40,8 @@ class HorizontalPickerCollectionViewCell: UICollectionViewCell {
         })
     }
     
-    
+    func style() {
+        self.backgroundColor = .clear
+        self.contentView.backgroundColor = .clear
+    }
 }
