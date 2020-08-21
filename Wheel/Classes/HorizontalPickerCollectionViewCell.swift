@@ -19,7 +19,7 @@ class HorizontalPickerCollectionViewCell: UICollectionViewCell {
         return callback()
     }
     
-    func setup(with value: String, isCurrent: Bool ,selected: @escaping()-> Void) {
+    func setup(with value: String, isCurrent: Bool, selected: @escaping()-> Void) {
         self.whenSelected = selected
         self.label.text = value
         if isCurrent {select()} else {deselect()}
@@ -27,16 +27,18 @@ class HorizontalPickerCollectionViewCell: UICollectionViewCell {
     }
     
     func select() {
-        UIView.animate(withDuration: 0.5, animations: {
-            self.label.font = Wheel.font
-            self.label.textColor = Wheel.selectedElementColor
+        UIView.animate(withDuration: 0.5, animations: {[weak self] in
+            guard let _self = self else {return}
+            _self.label.font = Wheel.font
+            _self.label.textColor = Wheel.selectedElementColor
         })
     }
     
     func deselect() {
-        UIView.animate(withDuration: 0.5, animations: {
-            self.label.font = Wheel.font
-            self.label.textColor = Wheel.elementColor
+        UIView.animate(withDuration: 0.5, animations: {[weak self] in
+            guard let _self = self else {return}
+            _self.label.font = Wheel.font
+            _self.label.textColor = Wheel.elementColor
         })
     }
     

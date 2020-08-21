@@ -106,8 +106,9 @@ extension HorizontalScrollWheel: UICollectionViewDelegate, UICollectionViewDataS
         } else if indexPath.row - paddingCells / 2 < items.count {
             let cell = getCell(indexPath: indexPath)
             let item = items[indexPath.row - paddingCells / 2]
-            cell.setup(with: item, isCurrent: item == current) {
-                self.scrollToCell(at: indexPath)
+            cell.setup(with: item, isCurrent: item == current) { [weak self] in
+                guard let _self = self else {return}
+                _self.scrollToCell(at: indexPath)
             }
             return cell
         } else {
