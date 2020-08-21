@@ -51,20 +51,20 @@
 
 /* Begin PBXFileReference section */
 		0066586C1F77464F1721F967F13BD442 /* Pods-Wheel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Wheel_Example-dummy.m"; sourceTree = "<group>"; };
-		09B6C4E00B0688930AF84255BB60F35B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		09B6C4E00B0688930AF84255BB60F35B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		09C845A28B1051EA12DC43390F29E4A4 /* Wheel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Wheel-dummy.m"; sourceTree = "<group>"; };
 		117C6A5D5D4B04AB67C65CF968B0F37B /* Pods-Wheel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wheel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		150BA6AB5D13B2D1F09AC14A1DB51E85 /* Pods-Wheel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Wheel_Example.modulemap"; sourceTree = "<group>"; };
 		15D5A4109B3212C422EE1E853FB90E57 /* Pods-Wheel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wheel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1F72FB8F77A982009268115B2D644EB2 /* Wheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Wheel.framework; path = Wheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F72FB8F77A982009268115B2D644EB2 /* Wheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Wheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2515407DCF2DAEA4D4F9A3CB7BBED58E /* HorizontalScrollWheel.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HorizontalScrollWheel.xib; path = Wheel/Classes/HorizontalScrollWheel.xib; sourceTree = "<group>"; };
 		3897A5B1AA8FE7D4E93406C44154EBD1 /* HorizontalScrollWheel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalScrollWheel.swift; path = Wheel/Classes/HorizontalScrollWheel.swift; sourceTree = "<group>"; };
-		3D15856C697898B1791338C2CBDD92C9 /* Wheel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Wheel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D15856C697898B1791338C2CBDD92C9 /* Wheel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Wheel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		477C2AAAC1A90E0997AD36F217EA1D89 /* HorizontalPickerCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HorizontalPickerCollectionViewCell.xib; path = Wheel/Classes/HorizontalPickerCollectionViewCell.xib; sourceTree = "<group>"; };
 		534280D631AEE4EFFB86FE6D2BCEFA34 /* Pods-Wheel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wheel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5907B64BB6D4BC16FCAC3DE4CA18D8ED /* Pods-Wheel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Wheel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5BC27C9B26B2E7552277D41948265A27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5BC27C9B26B2E7552277D41948265A27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		643547F98B43D210B624CED02C6D8511 /* Wheel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wheel.swift; path = Wheel/Classes/Wheel.swift; sourceTree = "<group>"; };
 		6E784B07BC0B4959FAC5257AF4E9BA2C /* Pods-Wheel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Wheel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7507E26E14648D458FEE239C0EFBE01F /* Wheel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Wheel-umbrella.h"; sourceTree = "<group>"; };
@@ -73,21 +73,21 @@
 		7E9E58E715CEFF451A3E3E8DC99E3237 /* Wheel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Wheel.xcconfig; sourceTree = "<group>"; };
 		82FB5C0CB2B57974BA90BB5EDD78AA3E /* Pods-Wheel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Wheel_Tests-dummy.m"; sourceTree = "<group>"; };
 		9B4654C665A7A8FE7E2EC08879B59A23 /* Wheel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Wheel-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE89BFF45ED72CD9895604A859D13B0 /* Pods-Wheel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wheel_Example-Info.plist"; sourceTree = "<group>"; };
-		A264A64D2A514D616CE0126976DCBB1E /* Pods_Wheel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Wheel_Example.framework; path = "Pods-Wheel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A264A64D2A514D616CE0126976DCBB1E /* Pods_Wheel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wheel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D657F0B3C17524115AB0AE1C8C9BA5 /* Pods-Wheel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Wheel_Example-umbrella.h"; sourceTree = "<group>"; };
 		AB497BD8F3A26775B4A2F1263FB63DE0 /* ResourceBundle-Wheel-Wheel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Wheel-Wheel-Info.plist"; sourceTree = "<group>"; };
 		B6CEC1254D6AC4294572ED1FF73BFAEB /* Pods-Wheel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wheel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C2A45214A15D1BBA114554DF63A715D7 /* Wheel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Wheel.modulemap; sourceTree = "<group>"; };
 		C5831FFE57414A2D83B848092C65F318 /* HorizontalPickerCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalPickerCollectionViewCell.swift; path = Wheel/Classes/HorizontalPickerCollectionViewCell.swift; sourceTree = "<group>"; };
 		CF0713FB3442DF1FA885FC3BB85AA008 /* Wheel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Wheel-prefix.pch"; sourceTree = "<group>"; };
-		DB5E44FB1578C949B8305F8EE8C13023 /* Pods_Wheel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Wheel_Tests.framework; path = "Pods-Wheel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5E44FB1578C949B8305F8EE8C13023 /* Pods_Wheel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wheel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA036B4CD50E3FD1D218A9028BF7303C /* Pods-Wheel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Wheel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EABF6A5B8AACF7CA198A432AF41A4F69 /* Pods-Wheel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wheel_Tests-Info.plist"; sourceTree = "<group>"; };
 		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		ED008A3E4F9B8C5B6E8726CDF0F02CCD /* Pods-Wheel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wheel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F014EB0433A1BD0D6A92B532F358104F /* Wheel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Wheel.bundle; path = "Wheel-Wheel.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F014EB0433A1BD0D6A92B532F358104F /* Wheel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wheel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE41042D8319865C7C1BB3E476ED220 /* Pods-Wheel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wheel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -375,14 +375,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1160;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 1FA1D0DBE1BFCC10F3EC3DAFD95A56E2 /* Products */;
@@ -511,7 +512,6 @@
 			baseConfigurationReference = 78A9C8A65CB8887EEF646ADCAC6C71DA /* Pods-Wheel_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -546,7 +546,6 @@
 			baseConfigurationReference = 117C6A5D5D4B04AB67C65CF968B0F37B /* Pods-Wheel_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -580,7 +579,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E9E58E715CEFF451A3E3E8DC99E3237 /* Wheel.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -614,6 +612,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -663,8 +662,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -674,6 +672,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -755,7 +754,6 @@
 			baseConfigurationReference = 15D5A4109B3212C422EE1E853FB90E57 /* Pods-Wheel_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -790,7 +788,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E9E58E715CEFF451A3E3E8DC99E3237 /* Wheel.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -824,7 +821,6 @@
 			baseConfigurationReference = B6CEC1254D6AC4294572ED1FF73BFAEB /* Pods-Wheel_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
