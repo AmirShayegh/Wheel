@@ -45,5 +45,7 @@ class HorizontalPickerCollectionViewCell: UICollectionViewCell {
     func style() {
         self.backgroundColor = .clear
         self.contentView.backgroundColor = .clear
+        label.adjustsFontSizeToFitWidth = true
+        label.minimumScaleFactor = 0.5
     }
 }
